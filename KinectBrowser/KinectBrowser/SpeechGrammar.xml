@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="command" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<rule id="command" scope="public">
+		<one-of>
+			<!-- go back -->
+			<item>back<tag>out = new Object(); out.type = "historyBack"; </tag></item>
+			<item>go back<tag>out = new Object(); out.type = "historyBack"; </tag></item>
+			<!-- go forward -->
+			<item>forward<tag>out = new Object(); out.type = "historyForward";</tag></item>
+			<item>go forward<tag>out = new Object(); out.type = "historyForward";</tag></item>
+			<!-- switch to next tab -->
+			<item>next tab<tag>out = new Object(); out.type = "tabNext";</tag></item>
+			<!-- switch to previous tab -->
+			<item>previous tab<tag>out = new Object(); out.type = "tabPrevious";</tag></item>
+			<!-- switch to tab <number> -->
+			<item>tab <ruleref uri="#number" /> <tag>out = new Object(); out.type = "tabSwitch"; out.num = rules.number</tag></item>
+			<!-- reload page -->
+			<item>reload<tag>out = new Object(); out.type = "reload";</tag></item>
+			<item>reload page<tag>out = new Object(); out.type = "reload";</tag></item>
+			<item>refresh<tag>out = new Object(); out.type = "reload";</tag></item>
+			<item>refresh page<tag>out = new Object(); out.type = "reload";</tag></item>
+			<!-- scroll down -->
+			<item>scroll<tag>out = new Object(); out.type = "scrollDown";</tag></item>
+			<item>scroll down<tag>out = new Object(); out.type = "scrollDown";</tag></item>
+			<!-- scroll up -->
+			<item>scroll up<tag>out = new Object(); out.type = "scrollUp";</tag></item>
+			<!-- zoom in -->
+			<item>zoom<tag>out = new Object(); out.type = "zoomIn";</tag></item>
+			<item>zoom in<tag>out = new Object(); out.type = "zoomIn";</tag></item>
+			<!-- zoom out -->
+			<item>zoom out<tag>out = new Object(); out.type = "zoomOut";</tag></item>
+			<!-- zoom reset -->
+			<item>zoom reset<tag>out = new Object(); out.type = "zoomReset";</tag></item>
+			<!-- open link <number> -->
+			<!--<item>open link <ruleref uri="#number" /> <tag>out = new Object(); out.type = "linkOpen"; out.param = rules.number</tag></item>
+			<item>link <ruleref uri="#number" /> <tag>out = new Object(); out.type = "linkOpen"; out.param = rules.number</tag></item>-->
+			<!-- open link <number> in new tab -->
+			<!--<item>open link <ruleref uri="#number" /> in new tab<tag>out = new Object();  out.type = "linkOpenInTab"; out.param = rules.number</tag></item>
+			<item>link <ruleref uri="#number" /> in new tab<tag>out = new Object();  out.type = "linkOpenInTab; out.param = rules.number</tag></item>-->
+		</one-of>
+	</rule>
+	<rule id="number" scope="public">
+		<one-of>
+			<item>one <tag>out = "0";</tag></item>
+			<item>two <tag>out = "1";</tag></item>
+			<item>three <tag>out = "2";</tag></item>
+			<item>four <tag>out = "3";</tag></item>
+			<item>five <tag>out = "4";</tag></item>
+			<item>six <tag>out = "5";</tag></item>
+			<item>seven <tag>out = "6";</tag></item>
+			<item>eight <tag>out = "7";</tag></item>
+			<item>nine <tag>out = "8";</tag></item>
+			<item>ten <tag>out = "9";</tag></item>
+		</one-of>
+	</rule>
+</grammar>

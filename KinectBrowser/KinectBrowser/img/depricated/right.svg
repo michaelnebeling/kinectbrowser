@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="34.997097"
+   height="51.000103"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   version="1.0"
+   sodipodi:docname="Cursor-hand-wiki.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313708"
+     inkscape:cx="25.187159"
+     inkscape:cy="27.387153"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0.05"
+     fit-margin-bottom="0.63"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-360.75145,-184.99719)">
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.54172587px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       d="m 377.11002,234.59641 c -0.13541,-0.50535 -0.69363,-2.49861 -0.69363,-2.49861 0,0 -8.51252,-3.9484 -9.87371,-7.51089 -1.36117,-3.56243 -3.23219,-11.05095 -3.23219,-11.05095 0,0 -0.0903,-0.45324 -0.96018,-1.90416 -2.81748,-1.59279 2.02769,-7.15461 5.81338,-2.24015 1.58928,3.90782 1.70344,4.27523 2.16478,6.05562 0.16347,0.63327 -5.51879,-20.48896 -6.11112,-22.80701 1.09022,-1.55892 2.23302,-3.51962 6.10378,-1.50006 0.53433,1.69893 5.77255,21.54345 5.77255,21.54345 l -6.87363,-24.66846 c 0,0 3.77449,-4.44544 5.68799,-0.78969 1.15415,2.20506 6.50377,22.54373 6.50377,22.54373 l -6.08951,-22.24849 c 0,0 3.78352,-3.19795 6.3326,-0.76631 1.00999,3.80022 6.32535,22.71214 6.32535,22.71214 0,0 -2.70241,-9.81004 -4.12833,-15.9042 0.1265,-0.0339 2.07244,-1.13297 4.44331,0.12763 0.855,2.35129 6.60055,23.43518 6.48191,23.46697 0,0 0.81489,3.16716 -1.21573,7.09678 0.16293,3.83275 0.69721,5.89021 0.69721,5.89021 z"
+       id="path1877"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccccccccscccccccccc" />
+  </g>
+</svg>
